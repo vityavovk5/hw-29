@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <section>
+        <p>Подсчитать сумму всех чисел в заданном пользователем диапазоне.</p> 
+        <hr>
+        <input type="number" id="first" placeholder="начало диапазона">
+        <input type="number" id="second" placeholder="конец диапазона">
+       
+        <button onclick="summTwoNumbers()">Подсчитать</button>
+        <br>
+        <p id="summ"></p>
+    </section>
+    <section>
+        <p>Запросить 2 числа и найти только наибольший общий делитель.</p> 
+        <hr>
+        <input type="number" id="numberOne" placeholder="введи 1 число">
+        <input type="number" id="numberTwo" placeholder="введи 2 число">
+       
+        <button onclick="commonDivisor()">Подсчитать</button>
+        <br>
+        <p id="divisor"></p>
+    </section>
+    <section>
+        <p>Запросить у пользователя число и вывести все делители этого числа.</p>
+        <input type="number" id="numberDivisors" placeholder="введи число больше 0">
+        <button onclick="allDivisors()">вывести все делители числа</button>
+        <p id="ansverDivisors"></p>
+    </section>
+    <section>
+        <p>Определить количество цифр в введенном числе.</p>
+        <input type="number" id="numberInput" placeholder="введи число больше 0">
+        <button onclick="quantityNumbers()">вывести все делители числа</button>
+        <p id="ansverQuantity"></p>
+    </section>
+</body>
+</html>
